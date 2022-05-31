@@ -25,6 +25,7 @@ ul{
     gap: 18px;
 }
 .hero{
+    margin-top: 50px;
     display: flex;
     justify-content:space-between;
     /* gap: 48px; */
@@ -39,22 +40,31 @@ h1{
     color: #f9faf8;
 }
 .hero-sign-up{
+   
     width: 500px;
-    border: 2px solid red;
-    padding: 24px 32px;
+    /* border: 2px solid red; */
+    /* padding: 24px 32px; */
+}
+#hero-button{
+    border: #3882f2;
 }
 .image-holder{
-    width: 500px;
-    border: 2px solid red;
-    text-align: center;
+    width: 600px;
+    background-color: #344358;
+    /* border: 2px solid red; */
+    /* text-align: center; */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     
 }
-section,footer{
+section{
    
     padding: 32px 86px;
 }
 .second-part{
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -66,14 +76,22 @@ section,footer{
     gap: 18px;
 }
 #info{
+   margin-top: 0px;
+   margin-bottom: 45px;
    font-size: 36px;
    font-weight:bolder;
    color: #1F2937 ;
 }
 .card{
     width: 200px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     text-align: center;
+}
+.imgframe{
+    width: 130px;
+    height: 140px;
+    border: 2px solid #3882f2;
+    border-radius: 10px;
 }
 .quot-part{
     background-color: #E5E7EB;
@@ -109,8 +127,14 @@ section,footer{
     padding: 24px 62px;
     width: 760px;
 }
-.textin-blue{
+.textin-blue,.textin-blue p{
+    margin-top: 0px;
     color: white;
+}
+#call{
+    font-size: 24px;
+    font-weight: bolder;
+    margin-bottom: 0px;
 }
 
 footer {
@@ -118,11 +142,18 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    color:white
+    color:white;
+    padding: 15px 0px;
+
 }
 button{
     background-color: #3882f2;
     color: white;
     padding: 4px 15px;
     border-radius: 10px;
+    font-size: 18px;
+}
+#blue-button{
+    
+    border: 2px solid #e4f0d8;
 }

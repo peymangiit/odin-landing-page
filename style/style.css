@@ -1,0 +1,128 @@
+html,body{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    padding: 32px 86px;
+    background-color:#1F2937 ;
+}
+.logo{
+    font-size: 24px;
+    color: #f9faf8;
+}
+nav{
+    
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 18px;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    gap: 18px;
+}
+.hero{
+    display: flex;
+    justify-content:space-between;
+    /* gap: 48px; */
+}
+#hero-text,li{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+.hero-sign-up{
+    width: 500px;
+    border: 2px solid red;
+    padding: 24px 32px;
+}
+.image-holder{
+    width: 500px;
+    border: 2px solid red;
+    text-align: center;
+    
+}
+section,footer{
+   
+    padding: 32px 86px;
+}
+.second-part{
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    display: flex;
+    
+    gap: 18px;
+}
+#info{
+   font-size: 36px;
+   font-weight:bolder;
+   color: #1F2937 ;
+}
+.card{
+    width: 200px;
+    border: 2px solid red;
+    text-align: center;
+}
+.quot-part{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+#qoute{
+    font-size: 36px;
+    font-weight: light;
+    color: #1f2937;
+    width: 760px;
+}
+#signing {
+   align-self: flex-end;
+   padding-right: 120px;
+   font-weight: bolder;
+}
+.blue-sign-up{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 45px;
+}
+.blue-rec{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3882f2;
+    border-radius: 25px;
+    padding: 24px 62px;
+    width: 760px;
+}
+.textin-blue{
+    color: white;
+}
+
+footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white
+}
+button{
+    background-color: #3882f2;
+    color: white;
+    padding: 4px 15px;
+    border-radius: 10px;
+}
